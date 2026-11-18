@@ -1,0 +1,25 @@
+{
+  "id": "/bojxona-test",
+  "name": "Bojxona test platformasi",
+  "short_name": "Bojxona Test",
+  "description": "Bojxona bo‘yicha 300 ta test, PF-174 savollari, mashq va imtihon rejimi. Internetsiz ham ishlaydi.",
+  "lang": "uz",
+  "dir": "ltr",
+  "start_url": "./?source=pwa",
+  "scope": "./",
+  "display": "standalone",
+  "orientation": "any",
+  "background_color": "#0b5d36",
+  "theme_color": "#0b5d36",
+  "categories": ["education", "productivity"],
+  "icons": [
+    {"src": "icons/icon-192.png", "sizes": "192x192", "type": "image/png", "purpose": "any"},
+    {"src": "icons/icon-512.png", "sizes": "512x512", "type": "image/png", "purpose": "any"},
+    {"src": "icons/maskable-512.png", "sizes": "512x512", "type": "image/png", "purpose": "maskable"}
+  ],
+  "shortcuts": [
+    {"name": "Imtihon simulyatori", "short_name": "Imtihon", "description": "50 ta aralash savol, 38 daqiqa", "url": "./?a=sim", "icons": [{"src": "icons/icon-192.png", "sizes": "192x192"}]},
+    {"name": "Kun savoli", "short_name": "Kun savoli", "url": "./?a=day", "icons": [{"src": "icons/icon-192.png", "sizes": "192x192"}]},
+    {"name": "Xatolar ustida ishlash", "short_name": "Xatolar", "url": "./?a=wrong", "icons": [{"src": "icons/icon-192.png", "sizes": "192x192"}]}
+  ]
+}
